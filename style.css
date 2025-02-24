@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+    env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  nav {
+    padding: 1rem; /* Fixed padding for larger screens (desktop) */
+  }
+}
