@@ -18,7 +18,7 @@ nav {
   padding-bottom: env(safe-area-inset-bottom, 50px);
   padding-left: env(safe-area-inset-left, 50px);
   gap: 1rem;
-  border: 1px solid red;
+  border: 1px solid gold;
 }
 
 @media (min-width: 768px) {
