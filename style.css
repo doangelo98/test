@@ -27,8 +27,18 @@ nav {
   margin-bottom: 1rem;
 }
 
-nav a {
+nav > a {
   padding-inline-end: 1rem;
+  display: block;
+}
+
+nav > a:first-child {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+nav > a:last-child {
+  padding-inline-end: 0;
 }
 
 main {
