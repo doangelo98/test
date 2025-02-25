@@ -10,6 +10,13 @@ body {
   padding: 2rem;
 }
 
+img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 a {
   text-decoration: none;
   color: unset;
@@ -17,5 +24,15 @@ a {
 
 nav {
   display: flex;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  padding-inline-end: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
