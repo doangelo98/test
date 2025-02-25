@@ -7,11 +7,7 @@
 }
 
 body {
-  padding: max(env(safe-area-inset-top, 2rem), 2rem)
-    max(env(safe-area-inset-right, 2rem), 2rem)
-    max(env(safe-area-inset-bottom, 2rem), 2rem)
-    max(env(safe-area-inset-left, 2rem), 2rem);
-  border: 1px solid;
+  padding: 2rem;
 }
 
 a {
