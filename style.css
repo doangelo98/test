@@ -5,7 +5,10 @@
 }
 
 body {
-  padding: 2rem;
+  padding: max(env(safe-area-inset-top, 20px), 20px)
+    max(env(safe-area-inset-right, 20px), 20px)
+    max(env(safe-area-inset-bottom, 20px), 20px)
+    max(env(safe-area-inset-left, 20px), 20px);
   font-family: 'Roboto', serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -28,6 +31,7 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  border: 1px solid;
 }
 
 nav > a {
